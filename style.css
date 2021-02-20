@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+
+.wrapper{
+  margin:auto;
+  width:80%
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+}
+
+.logo{
+  padding: 40px 0;
+  font-family: pt_serif, arial, helvetica, sans-serif;
+}
+
+.menu{
+  display:flex;
+  align-items:center;
+}
+
+.menu__item{
+  padding:0 13px;
+}
