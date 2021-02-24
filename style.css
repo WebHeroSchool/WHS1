@@ -13,8 +13,22 @@ body{
 }
 
 .logo{
+  position: relative;
   padding: 40px 0;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  padding-left: 44px;
+  font: bold 24px/31px PT Serif, arial, helvetica, sans-serif;
+  width: 190px;
+  height: 35px;
+}
+
+.logo__circle{
+  position: absolute;
+  left: 0;
+  top: 50px;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border: dashed 1px red;
 }
 
 .menu{
@@ -23,5 +37,33 @@ body{
 }
 
 .menu__item{
-  padding:0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration:none;
+}
+
+.menu__item:last-child{
+  margin-right: 0;
+}
+
+.menu__item:hover{
+  opacity: 0.5;
+}
+
+.menu__item:after{
+  position: absolute;
+  left: 0;
+  display:block;
+  content:'';
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  transition: opacity.5s; width.5s;
+}
+
+.menu__item:hover:after,.menu__item_active:after{
+  opacity: 1;
+  width: 100%
 }
