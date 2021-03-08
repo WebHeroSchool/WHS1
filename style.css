@@ -10,13 +10,14 @@ body{
 .header{
   display:flex;
   justify-content:space-between;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .logo{
   position: relative;
+  margin-right: 63%;
   padding: 35px 0;
-  padding-left: 40px;
+  padding-left: 39px;
   font: bold 19px/19px PT Serif, arial, helvetica, sans-serif;
   width: 220px;
   height: 35px;
@@ -25,8 +26,8 @@ body{
 .logo__circle{
   position: absolute;
   left: 0;
-  top: 57px;
-  transform: translateY(-80%);
+  top: 46px;
+  transform: translateY(-60%);
   width: 22px;
   height: 22px;
 }
@@ -38,7 +39,7 @@ body{
 
 .logo__circle_color_blue{
   left: 8px;
-  top: 56%;
+  top: 51%;
   background: #C8DBFB;
   border-radius: 50%;
   opacity: .7;
@@ -52,7 +53,7 @@ body{
 
 .menu__item{
   position: relative;
-  margin-right: 26px;
+  margin-right: 23px;
   font: 700 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration:none;
@@ -74,7 +75,7 @@ body{
   width: 0;
   height: 3px;
   background: #0056EC;
-  transition: opacity.5s; width.5s;
+  transition: opacity.5s; width .5s;
 }
 
 .menu__item:hover:after,.menu__item_active:after{
@@ -88,12 +89,12 @@ body{
 }
 
 .main__title{
-  margin: 40 0 40px 0;
+  margin: 40px 0 -8px 0;
   font: bold 54px/67px PT Serif, arial, helvetica, sans-serif;
 }
 
 .main__subtitle{
-  margin: 41 0 41px 0;
+  margin: 41px 0 35px 0;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
