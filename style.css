@@ -57,6 +57,7 @@ body{
   font: 700 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration:none;
+  min-width: max-content;
 }
 
 .menu__item:last-child{
@@ -85,7 +86,9 @@ body{
 
 .main{
   padding: 0 63% 246px 0;
-  background: top right no-repeat url(img/mainImg.svg);
+  background: no-repeat url(img/mainImg.svg);
+  background-size: 92% 92%;
+  background-position: bottom 130px left 360x;
 }
 
 .main__title{
