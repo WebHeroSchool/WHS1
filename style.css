@@ -4,7 +4,7 @@ body{
 
 .wrapper{
   margin:auto;
-  width: 76%
+  width: 80%
 }
 
 .header{
@@ -89,7 +89,7 @@ body{
   padding: 0 48% 246px 0;
   background: no-repeat url(img/mainImg.svg);
   background-size: 160% 100%;
-  background-position: 120px 0px;
+  background-position: 0;
 }
 
 .main__title{
