@@ -4,29 +4,29 @@ body{
 
 .wrapper{
   margin:auto;
-  width:80%
+  width: 76%
 }
 
 .header{
   display:flex;
   justify-content:space-between;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
 }
 
 .logo{
   position: relative;
-  margin-right: 63%;
-  padding: 35px 0;
+  margin-right: 70%;
+  padding: 35px 5px;
   padding-left: 39px;
   font: bold 19px/19px PT Serif, arial, helvetica, sans-serif;
   width: 220px;
-  height: 35px;
+  height: 31px;
 }
 
 .logo__circle{
   position: absolute;
   left: 0;
-  top: 46px;
+  top: 45px;
   transform: translateY(-60%);
   width: 22px;
   height: 22px;
@@ -48,11 +48,12 @@ body{
 .menu{
   display:flex;
   align-items:center;
-  padding: 0;
+  padding: 1px 10px 9px 81px ;
 }
 
 .menu__item{
   position: relative;
+  margin: 10px 0 10px 0;
   margin-right: 23px;
   font: 700 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #000;
@@ -85,28 +86,30 @@ body{
 }
 
 .main{
-  padding: 0 63% 246px 0;
+  padding: 0 48% 246px 0;
   background: no-repeat url(img/mainImg.svg);
-  background-size: 92% 92%;
-  background-position: bottom 130px left 360x;
+  background-size: 160% 100%;
+  background-position: 120px 0px;
 }
 
 .main__title{
-  margin: 40px 0 -8px 0;
+  margin: 153px 24px 0 1px;
   font: bold 54px/67px PT Serif, arial, helvetica, sans-serif;
 }
 
 .main__subtitle{
-  margin: 41px 0 35px 0;
+  margin: 37px 112px 23px 2px;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button{
   display: inline-block;
+  margin: 10px 11px 10px 0;
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 15px 25px;
+  padding: 15px 34px;
+  padding-left: 21px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
