@@ -4,32 +4,32 @@ body{
 
 .wrapper{
   margin:auto;
-  width: 80%
+  width: 79%
 }
 
 .header{
   display:flex;
   justify-content:space-between;
-  margin-bottom: 130px;
+  margin-bottom: 206px;
 }
 
 .logo{
   position: relative;
-  margin-right: 70%;
-  padding: 35px 5px;
-  padding-left: 39px;
-  font: bold 19px/19px PT Serif, arial, helvetica, sans-serif;
+  margin-right: 50%;
+  padding: 47px 0;
+  padding-left: 37px;
+  font: bold 24px/18px PT Serif, arial, helvetica, sans-serif;
   width: 220px;
-  height: 31px;
+  height: 25px;
 }
 
 .logo__circle{
   position: absolute;
-  left: 0;
-  top: 45px;
+  left:-6px;
+  top: 57px;
   transform: translateY(-60%);
-  width: 22px;
-  height: 22px;
+  width: 28px;
+  height: 29px;
 }
 
 .logo__circle_color_dark-blue{
@@ -38,8 +38,8 @@ body{
 }
 
 .logo__circle_color_blue{
-  left: 8px;
-  top: 51%;
+  left: 3px;
+  top: 55%;
   background: #C8DBFB;
   border-radius: 50%;
   opacity: .7;
@@ -48,14 +48,13 @@ body{
 .menu{
   display:flex;
   align-items:center;
-  padding: 1px 10px 9px 81px ;
 }
 
 .menu__item{
   position: relative;
-  margin: 10px 0 10px 0;
-  margin-right: 23px;
-  font: 700 14px/16px Roboto, arial, helvetica, sans-serif;
+  margin: 19px 67px 25px 5px;
+  margin-right: 12px;
+  font: 700 20px/20px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration:none;
   min-width: max-content;
@@ -86,29 +85,27 @@ body{
 }
 
 .main{
-  padding: 0 48% 246px 0;
-  background: no-repeat url(img/mainImg.svg);
-  background-size: 160% 100%;
-  background-position: 0;
+  padding-right: 59%;
+  background: top right no-repeat url(img/mainImg.svg)
 }
 
 .main__title{
-  margin: 153px 24px 0 1px;
-  font: bold 54px/67px PT Serif, arial, helvetica, sans-serif;
+  margin: 160px 3px 0px -8px;
+  font: bold 66px/81px PT Serif, arial, helvetica, sans-serif;
 }
 
 .main__subtitle{
-  margin: 37px 112px 23px 2px;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  margin: 49px 170px -123px -6px;
+  font: 22px/23px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button{
   display: inline-block;
-  margin: 10px 11px 10px 0;
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  margin: 169px 89px 0px -5px;
+  font: 18px/22px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 15px 34px;
+  padding: 16px 36px;
   padding-left: 21px;
   text-decoration: none;
   border-radius: 4px;
