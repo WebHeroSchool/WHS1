@@ -4,7 +4,7 @@ body{
 
 .wrapper{
   margin:auto;
-  margin-right: 187px;
+  margin-right: 199px;
   margin-left: 201px;
 }
 
@@ -47,7 +47,7 @@ body{
 }
 
 .menu{
-  margin-right: 1px;
+  margin-right: -10px;
   display:flex;
   align-items:center;
 }
@@ -63,7 +63,7 @@ body{
 }
 
 .menu__item:last-child{
-  margin: -right: 0;
+  margin: right: 0;
 }
 
 .menu__item:hover{
@@ -78,7 +78,7 @@ body{
   width: 0;
   height: 3px;
   background: #0056EC;
-  transition: opacity.5s; width .5s;
+  transition: opacity .5s; width .5s;
 }
 
 .menu__item:hover:after,.menu__item_active:after{
@@ -89,8 +89,8 @@ body{
 .main{
   padding-top: 34px;
   padding-right: 59%;
-  background: top right no-repeat url(img/mainImg.svg);
   padding-bottom: 142px;
+  background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title{
@@ -99,13 +99,13 @@ body{
 }
 
 .main__subtitle{
-  margin: 38px 180px -128px -6px;
+  margin: 36px 180px -128px -6px;
   font: 22px/25px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button{
   display: inline-block;
-  margin: 173px 100px 2px -5px;
+  margin: 173px 107px 7px -5px;
   font: 18px/22px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
