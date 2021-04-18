@@ -4,8 +4,7 @@ body{
 
 .wrapper{
   margin:auto;
-  margin-right: 199px;
-  margin-left: 201px;
+  width:79%;
 }
 
 .header{
